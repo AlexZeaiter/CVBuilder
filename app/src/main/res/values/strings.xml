@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">CV-Builder</string>
+    <string name="title_activity_cv">CV_Activity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="education_experience">Hello second fragment. Arg: %1$s</string>
+    <string name="about_me">Enthusiastic senior software engineer with over 9 years of experience leading and contributing to key projects spanning data migration, report creation based on SQL databases, desktop and web application development using C#.
+        Strong background in all software development life cycle (SDLC) phases. Consistently delivers projects on-time and with superior quality.
+        Well-versed in working with colleagues to integrate diverse modules into single, feature-rich applications.
+        Team player, working collaboratively to ensure alignment with desired outcomes.
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

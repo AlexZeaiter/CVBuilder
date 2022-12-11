@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/fb"
+        android:title="Facebook"
+        android:icon="@drawable/fb_icon"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/li"
+        android:title="LinkedIn"
+        android:icon="@drawable/lin_icon"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/gg"
+        android:title="Google"
+        android:icon="@drawable/g_logo"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/tw"
+        android:title="Twitter"
+        android:icon="@drawable/twitter_logo"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/wts"
+        android:title="WhatApp"
+        android:icon="@drawable/i_wts"
+        app:showAsAction="withText"/>
+    <item
+        android:id="@+id/logout"
+        android:title="Log Out"
+        android:icon="@drawable/i_logout"
+        app:showAsAction="withText"/>
+</menu>
