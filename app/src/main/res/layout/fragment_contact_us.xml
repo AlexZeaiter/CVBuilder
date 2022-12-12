@@ -18,8 +18,7 @@
         android:id="@+id/phone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Call"
-        android:onClick="dial"/>
+        android:text="Call"/>
     <Space
         android:layout_width="match_parent"
         android:layout_height="20dp"/>
@@ -35,6 +34,5 @@
         android:id="@+id/emailus"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Email Us"
-        android:onClick="email"/>
+        android:text="Email Us"/>
 </LinearLayout>

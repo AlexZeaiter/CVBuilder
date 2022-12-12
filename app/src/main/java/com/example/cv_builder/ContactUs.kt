@@ -45,24 +45,4 @@ class ContactUs : Fragment() {
         }
         return view
     }
-    private fun dial(view: View){
-        val i = Intent()
-        i.action = Intent.ACTION_DIAL
-        i.data = Uri.parse("tel:$+11234567890") //tel: data representation of telephony number
-        startActivity(i)
-    }
-
-    private fun email(view: View) {
-        try {
-            val intent = Intent(Intent.ACTION_SENDTO)
-            intent.data = Uri.parse("mailto:") // only email apps should handle this
-
-            intent.putExtra(Intent.EXTRA_EMAIL, "CVDemo@Gmail.Com")
-            intent.putExtra(Intent.EXTRA_SUBJECT, "ContactUS")
-            startActivity(intent)
-        }
-        catch (e: PackageManager.NameNotFoundException) {
-
-        }
-    }
 }

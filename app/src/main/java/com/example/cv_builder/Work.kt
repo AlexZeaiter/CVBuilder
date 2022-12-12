@@ -60,7 +60,6 @@ class Work : Fragment() {
                 dialog,_->
             dialog.dismiss()
             Toast.makeText(requireContext(),"Cancel", Toast.LENGTH_SHORT).show()
-
         }
         addDialog.create()
         addDialog.show()

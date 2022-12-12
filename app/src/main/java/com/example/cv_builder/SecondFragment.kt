@@ -21,8 +21,6 @@ class SecondFragment : Fragment() {
     private lateinit var adapter:  ArrayAdapter<String>
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,savedInstanceState: Bundle?): View? {
-
-
         _binding = FragmentSecondBinding.inflate(inflater, container, false)
         educations.add("Bachelor Degree in Computer Science")
         educations.add("Masters Degree in Computer Science")
@@ -39,7 +37,6 @@ class SecondFragment : Fragment() {
     private fun addEducation() {
         val inflter = LayoutInflater.from(requireContext())
         val v = inflter.inflate(com.example.cv_builder.R.layout.add_education,null)
-        /**set view*/
         val newEducation = v.findViewById<EditText>(com.example.cv_builder.R.id.newEducation)
 
         val addDialog = AlertDialog.Builder(requireContext())
